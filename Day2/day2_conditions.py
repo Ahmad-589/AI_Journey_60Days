@@ -15,6 +15,8 @@ if age >= 18:
 else:
     print("You are a minor ❌")
 
+mkdir -p Day2
+nano Day2/day2_conditions.py
 def greet(name):
     return f"Hello, {name}! 👋"
 
@@ -36,5 +38,4 @@ def even_or_odd(num: int) -> str:
     else:
         return "Odd"
 print(even_or_odd(10))  
-print(even_or_odd(12))  
-
+print(even_or
