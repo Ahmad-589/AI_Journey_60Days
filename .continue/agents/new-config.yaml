@@ -1,0 +1,7 @@
+name: Local Config
+version: "1.0.0"
+models:
+  - title: Llama 3 (local)
+    provider: ollama
+    model: llama3
+    apiBase: http://localhost:11434

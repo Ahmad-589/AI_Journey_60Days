@@ -1,41 +1,30 @@
+# Day2/practice_problems.py
 
-fruits = ["apple", "banana", "cherry"]   
-coordinates = (10, 20)                  
-person = {"name": "Ahmed", "age": 23}   
-unique_numbers = {1, 2, 3, 3, 2, 1} 
-
-print("List:", fruits)
-print("Tuple:", coordinates)
-print("Dictionary:", person)
-print("Set:", unique_numbers)
-
-age = 23
-if age >= 18:
-    print("You are an adult ✅")
-else:
-    print("You are a minor ❌")
-
-mkdir -p Day2
-nano Day2/day2_conditions.py
-def greet(name):
-    return f"Hello, {name}! 👋"
-
-print(greet("Ahmed"))
-
-def add_numbers(a, b):
-    return a + b
-
-print("Sum:", add_numbers(5, 7))
-
-import math
+# 1. Write a program to check if a number is even or odd.
 import random
+num = 7
+if num % 2 == 0:
+    print(f"{num} is Even")
+else:
+    print(f"{num} is Odd")
 
-print("Square root of 16:", math.sqrt(16))
-print("Random number (1–10):", random.randint(1, 10))
-def even_or_odd(num: int) -> str:
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-print(even_or_odd(10))  
-print(even_or
+# 2. Function to find the maximum of three numbers
+
+
+def max_of_three(a, b, c):
+    return max(a, b, c)
+
+
+print("Max of (5, 10, 3):", max_of_three(5, 10, 3))
+
+# 3. Store student data in a dictionary and print name & grade
+student = {"name": "Ahmed", "age": 23, "grade": "A"}
+print(f"Student {student['name']} has grade {student['grade']}")
+
+# 4. Use a set to remove duplicates from a list
+nums = [1, 2, 2, 3, 4, 4, 5]
+unique_nums = set(nums)
+print("Unique numbers:", unique_nums)
+
+# 5. Use random to generate 5 random numbers between 1 and 50
+print("Random numbers:", [random.randint(1, 50) for _ in range(5)])

@@ -26,3 +26,13 @@ with open("sample.txt", "r") as f:
     content = f.read()
     print("\nFile Content:")
     print(content)
+
+
+for i in range(5):
+    print("Iteration:", i)
+
+# while loop
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1

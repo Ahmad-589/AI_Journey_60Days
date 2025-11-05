@@ -21,3 +21,7 @@ while True:
         break
     sum += count
 print("sum=", sum)
+
+for c in range(22):
+    if c % 2 == 0:
+        print("Numbers", c)

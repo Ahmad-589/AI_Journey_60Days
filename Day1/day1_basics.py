@@ -10,3 +10,4 @@ print(f"Hello {name}, you were born around {birth_year}!")
 import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print("Sample NumPy Array:", arr)
+ 

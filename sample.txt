@@ -1,0 +1,2 @@
+Hello, this is Day 3!
+We are learning loops and file handling.
